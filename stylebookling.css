@@ -1,0 +1,71 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 20px;
+    width: 50px;
+    padding: 50px;
+    font-size: 16px;
+}
+
+
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.lower {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+}
+
+#location {
+    width: 300px;
+    height: 30px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+.form-group {
+    width: 50px;
+}
+
+
+
+
+/************************* buttion **********************/
+button {
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+}
+
+.adult{
+    width: 50px;
+    height: 24px;
+}
+.child{
+    width: 50px;
+    height: 24px;
+}
+.infant{
+    width: 50px;
+    height: 24px;
+}
+
+
+.curren{
+    color: tomato;
+}
+
+.currency{
+    width: 80px;
+    height: 30px;
+}
