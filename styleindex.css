@@ -43,10 +43,39 @@ a:hover{
     color: #000;
 }
 
+.bg {
+    padding: 0;
+    margin: 0;
+}
+
 img{
-position: static;
-margin-top: 5%;
-margin-left: 40%;
+width: 170vh;
+height: 100vh;
+}
+
+.myguide{
+    top: 30vh;
+    left: 150px;
+    position: fixed;
+}
+
+.myguide h1{
+    color: tomato;
+    font-size: 80px;
+    animation: type 3s steps(22);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right:4px solid black;
+    width: 27ch;
+}
+
+@keyframes type {
+    0%{ 
+        width: 0ch;
+}
+100%{
+    width: 22ch;
+}
 }
 
 .start {
